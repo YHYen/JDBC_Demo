@@ -10,7 +10,7 @@ import java.util.Properties;
 
 import javax.sql.DataSource;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 import com.itYan.POJO.Brand;
@@ -20,7 +20,7 @@ import com.itYan.POJO.Brand;
  * */
 public class BrandTest {
 
-	/*
+	/**
 	 * selectAll
 	 * Sql query: select * from tb_brand
 	 * argument: no required
@@ -80,7 +80,7 @@ public class BrandTest {
 		
 	}
 	
-	/*
+	/**
 	 * insert data
 	 * Sql query: insert into tb_brand (brand_name, company_name, ordered, description, status) values (?, ?, ?, ?, ?)
 	 * argument: brand:String, companyName:String, ordered:Integer, description:String, status:Integer
@@ -134,7 +134,7 @@ public class BrandTest {
 		
 	}
 	
-	/*
+	/**
 	 * Update Data
 	 * Sql query: 
 	 update tb_brand 
@@ -203,7 +203,7 @@ public class BrandTest {
 		
 	}
 	
-	/*
+	/**
 	 * Delete Data
 	 * Sql query: 
 	 delete from tb_brand  

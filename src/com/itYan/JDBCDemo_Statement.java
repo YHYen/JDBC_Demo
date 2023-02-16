@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 public class JDBCDemo_Statement {
 	
 	
-	/*
+	/**
 	 * execute DML query
 	 * @throws Exception
 	 * */
@@ -39,7 +39,7 @@ public class JDBCDemo_Statement {
 		conn.close();
 	}
 	
-	/*
+	/**
 	 * execute DDL query
 	 * @throws Exception
 	 * */

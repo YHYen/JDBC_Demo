@@ -1,18 +1,20 @@
 package com.itYan;
 
+import org.junit.jupiter.api.Test;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import org.junit.jupiter.api.Test;
+
 
 /*
  * JDBC API: PreparedStatement
  * */
 public class JDBCDemo_PreparedStatement {
 	
-	/*
+	/**
 	 * user login test with preparedStatement
 	 * @throws Exception
 	 * */
